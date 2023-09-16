@@ -9,6 +9,19 @@
  */
 int main(void)
 {
-	printf("% hello" ,"hi");
+	printf("hello % hello");
+	printf("hello %");
+	printf("% hello");
+	printf(NULL);
+	printf("");
+	printf("%");
+	printf("hello %hello");
+	printf("%z");
+	printf("% c" ,'a');
+	printf("hello %hello");
+	printf("%s");
+	printf("hello","world");
+
+	
 	return (0);
 }
