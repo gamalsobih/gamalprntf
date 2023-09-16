@@ -30,10 +30,10 @@ int main(void)
 	printf("Unsigned hexadecimal:[%x, %X]\n", ui, ui); */
 	_printf("Character:[%c]\n", 'H');
 	printf("Character:[%c]\n", 'H');
-	_printf("String:[%s][%s]\n[%s][%s]\n", "I am a string !", "I am a string !", "I am a string !", "I am a string !");
-	printf("String:[%s][%s]\n[%s][%s]\n", "I am a string !", "I am a string !", "I am a string !", "I am a string !");
-	len = _printf("Percent:[%%][%%]\n[%%][%%]\n");
-	len2 = printf("Percent:[%%][%%]\n[%%][%%]\n");
+	_printf("String:[%s][%s][%s][%s]\n", "I am a string !", "I am a string !", "I am a string !", "I am a string !");
+	printf("String:[%s][%s][%s][%s]\n", "I am a string !", "I am a string !", "I am a string !", "I am a string !");
+	len = _printf("Percent:[%%][%%][%%][%%]\n");
+	len2 = printf("Percent:[%%][%%][%%][%%]\n");
 
 	/*_printf("Address:[%p]\n", addr);
 	printf("Address:[%p]\n", addr);
