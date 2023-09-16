@@ -10,10 +10,16 @@
 int main(void)
 {
     _printf("hello % hello /n");
- /*  printf("%");*/
-    _printf("String:[%s]\n", "I am a string !");
-    printf("String:[%s]\n", "I am a string !");
-    _printf("Percent:[%%]\n");
-    printf("Percent:[%%]\n");
+    _printf("hello %");
+    _printf("% hello/n");
+    _printf(NULL);
+    _printf("");
+    _printf("%");
+    _printf("hello %hello");
+    _printf("%z");
+    _printf("% c" ,'a');
+    _printf("hello %hello");
+    _printf("%s");
+    _printf("hello","world");
     return (0);
 }
