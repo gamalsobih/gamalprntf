@@ -10,16 +10,28 @@
 int main(void)
 {
     _printf("hello % hello /n");
+    printf("/n");
     _printf("hello %");
+    printf("/n");
     _printf("% hello/n");
+    printf("/n");
     _printf(NULL);
+    printf("/n");
     _printf("");
+    printf("/n");
     _printf("%");
+    printf("/n");
     _printf("hello %hello");
+    printf("/n");
     _printf("%z");
+    printf("/n");
     _printf("% c" ,'a');
-    _printf("hello %hello");
+     printf("/n");
+   _printf("hello %hello");
+    printf("/n");
     _printf("%s");
-    _printf("hello","world");
+     printf("/n");
+   _printf("hello","world");
+        printf("/n");
     return (0);
 }
