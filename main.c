@@ -9,6 +9,6 @@
  */
 int main(void)
 {
-	printf("% hello");
+	printf("% hello" ,"hi");
 	return (0);
 }
