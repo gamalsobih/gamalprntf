@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * speci_str - converts a string to a pointer
+ * speci_in - converts a string to a pointer
  * @arg: an argument list
  * Return: NULL if error happens or str if not
  */
 
-char *speci_str(va_list arg)
+char *speci_int(va_list arg)
 {
-	char *str = va_arg(arg, char *);
+	int in = va_arg(arg, int);
 
-	if (str == NULL)
+	if (in == NULL)
 		return (NULL);
 
-	return (str);
+	return (in);
 }
