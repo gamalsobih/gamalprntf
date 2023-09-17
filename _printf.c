@@ -27,8 +27,8 @@ int _printf(const char *format, ...)
 	{
 		if (format[i] == '%')
 		{
-			if (!format[i+1]||format[i+1]==' ')
-			return(-1);
+			if (!format[i + 1] || (format[i + 1] == ' ' && !format[i + 2]))
+				return (-1);
 			i++;
 			count += _define_specifier(format[i], arg);
 		}
@@ -58,7 +58,6 @@ int _define_specifier(char x, va_list arg)
 	{
 		case 'c':
 			c = (char) va_arg(arg, int);
-			// get the next argument of type char and cast it back to char
 			putchar(c);
 			count++;
 			break;
