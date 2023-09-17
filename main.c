@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-    _printf("hello % hello /n");
+    _printf("%s/n%s","gamal","ahmad");
     printf("/n");
     return (0);
 }
