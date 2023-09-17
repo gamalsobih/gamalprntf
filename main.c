@@ -10,7 +10,6 @@
 int main(void)
 {    
     int x= 12;
-    _printf("%s",x);
-    printf("/n");
+    _printf("%s gamal",x);
     return (0);
 }
