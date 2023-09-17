@@ -1,5 +1,6 @@
 #ifndef _MAIN_H
 #define _MAIN_H
+#define _OPEN_SYS_ITOA_EXT
 
 #include <stdio.h>
 #include <stdlib.h>
