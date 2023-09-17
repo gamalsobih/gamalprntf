@@ -8,8 +8,9 @@
  * Return: Always 0
  */
 int main(void)
-{
-    _printf("%s/n%s","gamal","ahmad");
+{    
+    int x= 12;
+    _printf("%s",x);
     printf("/n");
     return (0);
 }
