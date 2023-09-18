@@ -1,12 +1,12 @@
 #include "main.h"
 char* itoa(int value, char* str, int base) {
-    // Handle negative numbers
+    /* Handle negative numbers*/
     if (value < 0 && base == 10) {
         *str++ = '-';
         value = -value;
     }
 
-    // Convert the number to a string in reverse order
+    /* Convert the number to a string in reverse order*/
     char* ptr = str;
     do {
         int digit = value % base;
@@ -14,10 +14,10 @@ char* itoa(int value, char* str, int base) {
         value /= base;
     } while (value > 0);
 
-    // Add null terminator
+    /* Add null terminator*/
     *ptr = '\0';
 
-    // Reverse the string
+    /* Reverse the string*/
     int length = ptr - str;
     for (int i = 0; i < length / 2; i++) {
         char temp = str[i];
