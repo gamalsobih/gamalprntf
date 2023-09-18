@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * speci_in - converts a string to a pointer
+ * speci_int - converts a string to a pointer
  * @arg: an argument list
  * Return: NULL if error happens or str if not
- * @*speci_int - Prints an int
  */
 
 char *speci_int(va_list arg)
