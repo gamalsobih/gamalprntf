@@ -15,10 +15,11 @@
 char *speci_bin(va_list arg)
 {
 	char *buffer;
+	unsigned int;
   int x =va_arg(arg, unsigned int);
 	if( x<0)
 		x*=-1;
-  unsigned int bin =int_to_binary(x);
+	bin =int_to_binary(x);
 
 	buffer = malloc(sizeof(int) * 8 + 1);
 	 itoa(bin, buffer, 10);
