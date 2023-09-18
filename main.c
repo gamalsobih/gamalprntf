@@ -21,7 +21,7 @@ int main(void)
     addr = (void *)0x7ffe637541f0;
     _printf("Length:[%i]\n",len);
     printf("Length:[%d, %i]\n", len2, len2);
-    _printf("Negative:[%b]\n", 56);
+    _printf("Negative:[%b]\n", -98);
     printf("Negative:[%d]\n", -762534);
     _printf("Unsigned:[%u]\n", ui);
     printf("Unsigned:[%u]\n", ui);
