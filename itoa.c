@@ -1,6 +1,7 @@
 #include "main.h"
 char* itoa(int value, char* str, int base) {
-    int i , char* ptr;
+    int i ;
+    char* ptr;
     /* Handle negative numbers*/
     if (value < 0 && base == 10) {
         *str++ = '-';
