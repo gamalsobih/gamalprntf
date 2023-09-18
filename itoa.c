@@ -1,6 +1,6 @@
 #include "main.h"
 char* itoa(int value, char* str, int base) {
-    int i ,char* ptr;
+    int i , char* ptr;
     /* Handle negative numbers*/
     if (value < 0 && base == 10) {
         *str++ = '-';
@@ -8,7 +8,7 @@ char* itoa(int value, char* str, int base) {
     }
 
     /* Convert the number to a string in reverse order*/
-    ptr = str;
+    *ptr = str;
     do {
         int digit = value % base;
         *ptr++ = digit < 10 ? '0' + digit : 'A' + digit - 10;
