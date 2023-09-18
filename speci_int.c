@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * speci_int - converts a string to a pointer
+ * speci_int -handling %i
  * @arg: an argument list
  * Return: NULL if error happens or str if not
  */
