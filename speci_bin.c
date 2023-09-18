@@ -15,7 +15,7 @@
 char *speci_bin(va_list arg)
 {
 	char *buffer;
-	unsigned int;
+	unsigned int bin;
   int x =va_arg(arg, unsigned int);
 	if( x<0)
 		x*=-1;
