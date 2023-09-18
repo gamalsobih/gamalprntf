@@ -7,9 +7,9 @@
  */
 int int_to_binary(unsigned int k)
 {
-    if (k == 0 || k == 1)
-	    return k;
-return (k % 2) + 10 * int_to_binary(k / 2);
+if (k == 0 || k == 1)
+		    return (k);
+return ((k % 2) + 10 * int_to_binary(k / 2));
 }
 
 char *speci_bin(va_list arg)
