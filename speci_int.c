@@ -11,9 +11,9 @@ char *speci_int(va_list arg)
 	
 	char *buffer ;
 	buffer=malloc(sizeof(int)*8+1);
-	 itoa (va_arg(arg, int),buffer,10);
+	 itoa (va_arg(arg, int),*buffer,10);
 	if (buffer == NULL)
 		return (NULL);
 
-	return (&buffer);
+	return (buffer);
 }
