@@ -8,9 +8,9 @@
 
 char *speci_int(va_list arg)
 {
-	int in = va_arg(arg, int);
-	char buffer [sizeof(int)*8+1];
-	 itoa (in,buffer,10);
+	int *in = va_arg(arg, int);
+	char *buffer [sizeof(int)*8+1];
+	 itoa (*in,buffer,10);
 	if (buffer == NULL)
 		return (NULL);
 
