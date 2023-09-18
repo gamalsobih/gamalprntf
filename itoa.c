@@ -30,10 +30,3 @@ char* itoa(int value, char* str, int base) {
     return str;
 }
 
-int main() {
-    int num = 123;
-    char str[10];
-    itoa(num, str, 10);
-    printf("Integer = %d\nString = %s\n", num, str);
-    return 0;
-}
