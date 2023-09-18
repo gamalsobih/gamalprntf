@@ -28,4 +28,5 @@ char *define_specifier(char format, va_list arg);
 char *speci_char(va_list arg);
 char *speci_str(va_list arg);
 char *speci_int(va_list arg);
+char* itoa(int value, char* str, int base);
 #endif /* _MAIN_H */
