@@ -14,5 +14,5 @@ char *speci_int(va_list arg)
 	if (buffer == NULL)
 		return (NULL);
 
-	return (buffer);
+	return buffer;
 }
